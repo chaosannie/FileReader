@@ -16,7 +16,7 @@ fobj.close()
 
 
 print("Ausgabe der vollständigen Liste: ", lists)
-print("Ausgabe der formartierten Liste:")
+print("Ausgabe der formatierten Liste:")
 for i in range(count):
     row = "".join(lists[i])
     print(row)
