@@ -14,7 +14,12 @@ for line in fobj:
     lists.append(list(line.rstrip()))
 fobj.close()
 
+
 print("Ausgabe der vollständigen Liste: ", lists)
+print("Ausgabe der formartierten Liste:")
+for i in range(count):
+    row = "".join(lists[i])
+    print(row)
 print("Die Koordinaten y = 7 und x = 14 führen zum Zielzustand: ",lists[7][14]) #erste Koordinate ist y, zweite Koordinate ist x
 
 
